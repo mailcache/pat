@@ -1,16 +1,16 @@
 # pat
 
-![testing](https://github.com/gorilla/pat/actions/workflows/test.yml/badge.svg)
-[![codecov](https://codecov.io/github/gorilla/pat/branch/main/graph/badge.svg)](https://codecov.io/github/gorilla/pat)
-[![godoc](https://godoc.org/github.com/gorilla/pat?status.svg)](https://godoc.org/github.com/gorilla/pat)
-[![sourcegraph](https://sourcegraph.com/github.com/gorilla/pat/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/pat?badge)
+![testing](https://github.com/mailcache/pat/actions/workflows/test.yml/badge.svg)
+[![codecov](https://codecov.io/github/mailcache/pat/branch/main/graph/badge.svg)](https://codecov.io/github/mailcache/pat)
+[![godoc](https://godoc.org/github.com/mailcache/pat?status.svg)](https://godoc.org/github.com/mailcache/pat)
+[![sourcegraph](https://sourcegraph.com/github.com/mailcache/pat/-/badge.svg)](https://sourcegraph.com/github.com/mailcache/pat?badge)
 
 ![Gorilla Logo](https://github.com/gorilla/.github/assets/53367916/d92caabf-98e0-473e-bfbf-ab554ba435e5)
 
 ### Install
 With a properly configured Go toolchain:
 ```sh
-go get github.com/gorilla/pat
+go get github.com/mailcache/pat
 ```
 
 ### Example
@@ -24,7 +24,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/pat"
+	"github.com/mailcache/pat"
 )
 
 func homeHandler(wr http.ResponseWriter, req *http.Request) {

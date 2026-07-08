@@ -1,4 +1,4 @@
-module github.com/gorilla/pat
+module github.com/mailcache/pat
 
 go 1.20
 
